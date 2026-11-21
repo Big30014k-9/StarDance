@@ -1,7 +1,5 @@
 # Weird Storage
 
-A Python script that turns any file into an image, packing its binary data into pixels, and allowing you to recover the original file later.
-
 ## What it does
 
 **Weird Storage** acts as a simple file-to-image encoder and decoder. It takes any file (whether it's a text file, a script, or an archive), wraps it with a custom header containing its name and size, and converts those bytes into the pixels of a square PNG image. You can later reverse the process to completely restore your original file.
